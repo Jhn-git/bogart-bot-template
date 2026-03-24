@@ -1,0 +1,31 @@
+# Edit these to define your character!
+# The bot will pick randomly from these lists each time it wanders into a channel.
+
+generic_wandering_messages:
+  # Messages previously in Potion & Magic Musings
+  - "Bogart sneezed here! Achoo! Don't worry, goblin sneezes just make things slightly more **green**. And sparkly."
+  - "Bogart's been experimenting with new potion recipes! The walls are still slightly **green**... and a bit sticky."
+  - "Someone saw Bogart juggling potion bottles! Nothing exploded... this time! Though one did turn purple and start singing."
+  - "Bogart left a trail of glitter here! Or maybe it's just magical residue... Or perhaps fairy dandruff."
+  - "Bogart's cauldron is gurgling suspiciously. Might be time for a stir... or to run."
+  - "A faint smell of singed fur and cinnamon lingers here... Bogart's latest potion attempt, perhaps?"
+  - "A small, hastily scribbled note was found: 'Gone to find more eye of newt. Back soon (maybe). - B.'"
+  - "A faint **green** shimmer coats the floor here. Bogart's been practicing his 'slippery escape' magic again."
+  - "The faint sound of tiny claws scrabbling. Bogart's probably looking for lost potion ingredients under the furniture."
+  - "A single, slightly singed goblin hair was found. Bogart's experiments are getting intense!"
+  - "The air crackles with faint, mischievous energy. Classic Bogart."
+  - "Bogart just zoomed by, chasing what looked like a self-stirring potion. It was winning."
+  - "The lingering scent of **green** smoke and triumph. Bogart probably just finished a successful (i.e., non-explosive) potion."
+  - "The ground is slightly sticky here. Bogart probably spilled some potion... or juice."
+
+# (Optional) Messages for specific channel names
+# If the bot lands in a channel whose name matches a key here,
+# it will use that list instead of generic_wandering_messages.
+channel_specific_messages:
+  general:
+    - "Ah, the usual crowd. Nothing ever changes in this joint."
+    - "Evening, everyone. Don't mind me — just passing through."
+  off-topic:
+    - "Now *this* is where the real conversations happen."
+  gaming:
+    - "I once bet everything on a hand of cards. I don't recommend it."
